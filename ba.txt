@@ -1,0 +1,53 @@
+
+Bank Management System – Project Outline
+
+1. Account Management
+Users can create a new account by providing the following details:
+Costumer ids,Name, Father/Guardian Name, Date of Birth, CNIC and its expire, Phone Number, Address, and Email.
+
+The user must also select an Account Type (Saving or Current), set a PIN, and make an initial deposit.
+costumer ids
+Minimum balance rules apply:
+
+Saving Account: must always have at least Rs. 500.
+
+Current Account: must always have at least Rs. 1,000.
+
+Users can modify personal details such as Name, Father’s Name, Phone Number, Address, and Account Type.
+
+2. Transactions
+Deposit Money: Add funds to an existing account.
+
+Withdraw Money: Take out funds while maintaining the required minimum balance.
+
+ATM Withdrawal: Withdraw up to a maximum of Rs. 10,000 per transaction.
+
+Bank-to-Bank Transfer: Transfer money between two accounts after PIN verification.
+
+Every transaction should be time-stamped and recorded with details such as date, time, type, amount, and remaining balance.
+
+3. Bank Services
+Cheque Book Request: Available only for Current Accounts.
+
+Balance Enquiry: View the current balance after PIN verification.
+
+4. Security
+PIN verification is mandatory for all sensitive operations:
+
+Withdrawals
+
+ATM Withdrawals
+
+Deposits
+
+Transfers
+
+Balance Checks 
+
+Modifying Account Details
+
+
+5. User Interface
+The program should run in a menu-driven, terminal-based interface.
+
+The main menu should include 11 options, covering all major operations,  deposit, withdrawal, transfer, cheque requests, and account management.
